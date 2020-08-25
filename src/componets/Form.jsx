@@ -16,8 +16,9 @@ const Register =() =>{
   <Col>
     <Form.Control placeholder="Apellido" />
   </Col>
-</Row>
+</Row> <br></br>
 
+<Form.Control type="text" placeholder="Telefono" />
 
 <Form.Group controlId="formGroupEmail">
   <Form.Label>Email address</Form.Label>
@@ -31,6 +32,20 @@ const Register =() =>{
 <Button variant="primary" type="submit">
   Registrarse
 </Button>
+</Form>
+
+<Form>
+  <Form.Label>Ingrese los datos de su auto</Form.Label>
+  <Form.Control type="text" placeholder="Marca" /><br></br>
+  <Form.Control type="text" placeholder="Placas" /><br></br>
+  <Form.Control type="text" placeholder="Modelo" /><br></br>
+  <Form.Control type="text" placeholder="Color del auto" /><br></br>
+</Form>
+<Form>
+<Form.File id="formcheck-api-regular">
+      <Form.File.Label>Suba una foto de su auto</Form.File.Label>
+      <Form.File.Input />
+    </Form.File>
 </Form>
 
     </div>
