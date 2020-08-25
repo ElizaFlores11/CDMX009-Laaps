@@ -14,16 +14,9 @@ const MenuAdmin = () =>{
                     <Navbar collapseOnSelect expand="md" bg="success" variant="dark" className="ordermenu">
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="/WasherRegister">Registro Lavador</Nav.Link>
-                            <NavDropdown title="Reportes" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/ReportDay">Día</NavDropdown.Item>
-                            <NavDropdown.Item href="/ReportWasher">Lavador</NavDropdown.Item>
-                            </NavDropdown>
-                            </Nav>
-                        <Nav>
-                            <Nav.Link href="/LogOut">Salir</Nav.Link>
-                                    </Nav>
+                            <Nav.Link href="/MiPerfil">MiPerfil</Nav.Link>
+                            <Nav.Link href="/Opiniones">Opiniones</Nav.Link>
+                            <Nav.Link href="/LogOut">Cerrar Session</Nav.Link>
                         </Navbar.Collapse>
                         </Navbar>
                     </Col>
