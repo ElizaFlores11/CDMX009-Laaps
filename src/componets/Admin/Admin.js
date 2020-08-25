@@ -1,14 +1,15 @@
-import React from 'react'; 
-//import {firebase} from '../../firebase/configFirebase'; 
-//require("firebase/auth");
-const Admin = () =>{
-   // let singUser = firebase.auth().currentUser;
-    //console.log(singUser)
-    return (
-        <div>Hola 
-        
-        </div>
+import React, {Fragment} from 'react'; 
+import HeaderAdmin from '../HeaderAdmin/HeaderAdmin'; 
+import DatosAdmin from '../DatosAdmin/DatosAdmin'; 
 
-    );
+const Admin = () =>{
+
+    return (
+        <Fragment>
+            <HeaderAdmin />
+            <br/><br/>
+            <DatosAdmin />
+        </Fragment>
+    )
 }
 export default Admin; 

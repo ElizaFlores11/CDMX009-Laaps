@@ -25,7 +25,7 @@ const LoginForm = (props) =>{
         try {
             const res = await firebase.auth().signInWithEmailAndPassword(email, password);
             console.log(res);
-            props.history.push('/Ejemplo');
+            props.history.push('/Admin');
         } catch (error) {
             //console.log(error);
             if (error.code === "auth/user-not-found") {
