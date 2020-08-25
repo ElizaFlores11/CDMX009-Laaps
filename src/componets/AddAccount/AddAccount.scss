@@ -1,1 +1,20 @@
+.addAc-container{
+    display:flex;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.addAc-logo-container{
+    display: flex;
+    justify-content: center;
+}
+.addAc-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+#addAc-btn{
+    margin-left: 5%;
+}
 
