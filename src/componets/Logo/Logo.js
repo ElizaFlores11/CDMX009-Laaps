@@ -5,8 +5,8 @@ const Logo = ({small= false, big= false, medium=false }) =>{
     let src = logo1st
     let alt = logo1st
     let style = {
-        width: '70%',
-        height: '70%'
+        width: '80%',
+        height: '80%'
     }
     
 
