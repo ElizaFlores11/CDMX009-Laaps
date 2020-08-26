@@ -41,7 +41,7 @@ const AddAccount= () =>{
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Nombre del Titular</Form.Label>
-                    <Form.Control type="number" placeholder="Nombre del titular" size="sm"/>
+                    <Form.Control placeholder="Nombre del titular" size="sm"/>
                 </Form.Group>
                 <div className='button-container'>
                     <Button variant="primary" type="submit" id='addAc-btn'>
