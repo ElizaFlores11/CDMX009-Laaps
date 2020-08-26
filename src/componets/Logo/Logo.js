@@ -4,7 +4,7 @@ import logo2nd from '../../assets/logo2nd.png'
 const Logo = ({small= false, big= false, medium=false }) =>{
     let src = logo1st
     let alt = logo1st
-    let style = {
+    let style = {<
         width: '80%',
         height: '80%'
     }

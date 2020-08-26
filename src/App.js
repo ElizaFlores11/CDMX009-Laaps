@@ -1,10 +1,12 @@
 import React, {Fragment} from 'react';
 import Routes from './componets/Routes'; 
-//import './styles/styles.scss'; 
+import Index from '../src/componets/Index/Index'
+import './App.scss'
 function App() {
   return (
     <Fragment>
-      <Routes />
+      <Index />
+
     </Fragment>
   );
 }
