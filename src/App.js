@@ -6,11 +6,12 @@ import HeaderAdmin from './componets/HeaderAdmin/HeaderAdmin'
 import Header from './componets/Header/Header'
 import SendWasher from './componets/SendWasher/SendWasher'
 import Maps from './componets/Maps/Maps'
+import Home from './componets/Home/Home'
 import './App.scss'
 function App() {
   return (
     <Fragment>
-      <Maps />
+      <Home />
 
     </Fragment>
   );

@@ -24,7 +24,7 @@ import mapStyles from './mapStyles'
 const libraries= ['places'];
 const mapContainerStyle={
     width: '100vw',
-    height: '400px'
+    height: '300px'
 }
 const center= {
     lat:19.428810,
@@ -39,7 +39,7 @@ const options = {
 
 const Maps= ()=> {
     const {isLoaded, loadError} = useLoadScript({
-        googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+        googleMapsApiKey: "AIzaSyDqMoA5-A0A3YJ3mwK1qYp6flz_--NkG84",
         libraries,
     });
 
@@ -73,8 +73,9 @@ const Maps= ()=> {
     return (
         
         <div>
+            <Locate panTo={panTo} />
             <Search panTo={panTo} />
-            <GoogleMap mapContainerStyle={mapContainerStyle} zoom={11} center={center} options={options} onClick={onMapClick} onLoad={onMapLoad}>
+            <GoogleMap mapContainerStyle={mapContainerStyle} zoom={18} center={center} options={options} onClick={onMapClick} onLoad={onMapLoad}>
                 {markers.map((marker) => (
           <Marker
             key={`${marker.lat}-${marker.lng}`}
@@ -122,7 +123,7 @@ function Locate({ panTo }) {
           );
         }}
       >
-        <img src="/compass.svg" alt="compass" />
+        Aquí estas
       </button>
     );
   }
@@ -137,7 +138,7 @@ function Search({ panTo }) {
     } = usePlacesAutocomplete({
       requestOptions: {
         location: { lat: () => 19.428810, lng: () => -99.194679 },
-        radius: 100 * 1000,
+        radius: 200 * 1000,
       },
     });
 
