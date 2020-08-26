@@ -1,14 +1,25 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom";
+import Index from './Index/Index';
 import Login from './Login/Login';
-//import Admin from './Admin/Admin'; 
+import Admin from './Admin/Admin'; 
+import WasherReport from './WasherReport/WasherReport'
 const Routes = () => {
 
     return (
-        
         <Switch>
+        <Route exact path="/WasherReport">
+            <WasherReport />
+        </Route>
+        <Route exact path="/Admin">
+            <Admin />
+        </Route>
+
+       <Route exact path="/Login">
+            <Login />
+        </Route>
         <Route exact path="/">
-                <Login />
+                <Index />
             </Route>
         </Switch>
     )

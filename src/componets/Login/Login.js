@@ -1,6 +1,7 @@
 import React from 'react'; 
 import {Container, Col, Row } from 'react-bootstrap'
 import LoginForm from './LoginForm';
+import './login.scss'
 const Login = () =>{
     return(
             <Container className='top-login'>

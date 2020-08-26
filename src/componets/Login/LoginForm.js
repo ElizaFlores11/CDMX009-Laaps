@@ -1,6 +1,7 @@
 import React, {useState, useCallback, Fragment} from 'react'; 
+import LogoLogin from '../LogoLogin/LogoLogin';
 import { withRouter } from 'react-router-dom';
-import {Col, Row, Form, Button } from 'react-bootstrap';
+import {Container, Col, Row, Form, Button } from 'react-bootstrap';
 import {firebase} from '../../firebase/configFirebase'; 
 require("firebase/auth");
 
@@ -44,39 +45,54 @@ const LoginForm = (props) =>{
     
     return (
     <Fragment >
+        <Container>
+            <Row>
+                <Col md={{ span: 6, offset: 3 }}>
+                <LogoLogin />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={{ span: 6, offset: 3 }}>
+                <p className='titulo'>Bienvenido</p>
+                </Col>
+            </Row>
+            
+        </Container>
+       
         {bug && <div className="alert alert-danger">{bug}</div>}
         <Form>
             <Form.Group as={Row} controlId="formPlaintextEmail">
-                <Form.Label column sm="2">
-                    Usuario
-                </Form.Label>
-                <Col sm="8">
+                <Col md={{ span: 6, offset: 3 }}>
                 <Form.Control 
                     type='text'
-                    placeholder='ejemolo@correo.com'
+                    placeholder='Correo Electrono'
                     name='email'
                     onChange={(e) => setEmail(e.target.value)}
                 />
                 </Col>
-                <Form.Label column sm="2">
+                <Form.Label column sm="3">
                 </Form.Label>
             </Form.Group>
             <Form.Group as={Row} controlId="formPlaintextPassword">
-                <Form.Label column sm="2">
-                Password
-                </Form.Label>
-                <Col sm="8">
+                <Col md={{ span: 6, offset: 3 }}>
                 <Form.Control 
                     type="password" 
                     name='password'
-                    placeholder="Password"
+                    placeholder="Contraseña"
                     onChange={(e) => setPassword(e.target.value)}
                     />
                 </Col>
             </Form.Group>
-            <Button type="submit" className="mb-2" onClick={submit}>
+            <Container>
+            <Row>
+            <Col md={{ span: 6, offset: 3 }}>
+            <Button type="button" className="btnlogin" size="sm" style={{backgroundColor: '#47BEDB', borderColor:'#47BEDB'}} onClick={submit}>
                 Entrar
             </Button>
+            </Col>
+            </Row>
+            </Container>
+            
             </Form>
         </Fragment>
     )

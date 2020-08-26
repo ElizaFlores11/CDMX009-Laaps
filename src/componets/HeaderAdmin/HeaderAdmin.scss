@@ -1,0 +1,27 @@
+.header-container{
+    height: 100px;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.2pt solid #333333;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.ham-menu{
+    width: 100px;
+    height: auto;
+}
+.navbar{
+    position: relative;
+    margin: 0 0 0 1rem;
+    width: 100px;
+
+}
+.header-logo{
+    width: 110px;
+    height: 110;
+    margin-left: 3rem ;
+}
+.custom-btn{
+    border: none;
+}
