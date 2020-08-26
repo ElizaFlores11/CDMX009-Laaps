@@ -1,0 +1,29 @@
+.logologin{
+    width: 100px;
+    height: 120px;
+    margin-left: 50px;
+}
+.top-login{
+    margin-top: 200px 
+}
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    color:#47BEDB;
+    padding: 10px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+.btnlogin{
+    width: 150px;
+    background-color:  #47BEDB ;
+}
+@media (max-width: 750px) {
+    .logologin{
+        margin-left: 100px;
+    }
+}
+    
+    
+

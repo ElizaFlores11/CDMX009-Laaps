@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../Logo/Logo'
 import { Button } from 'react-bootstrap';
+import './Index.scss'
+import { Link } from "react-router-dom";
 
 const Index = () =>{
     return(

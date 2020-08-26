@@ -1,0 +1,23 @@
+.footer-container{
+    height: 50px;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.2pt solid #333333;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+@media (max-height:800px){
+    footer { position: absolute;
+}
+	header { padding-top:40px; }
+}
