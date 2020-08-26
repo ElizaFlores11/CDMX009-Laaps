@@ -18,14 +18,14 @@ const Register =() =>{
   </Col>
 </Row> <br></br>
 
-<Form.Control type="text" placeholder="Telefono" />
+<Form.Control type="text" placeholder="Telefono" /><br></br>
 
 <Form.Group controlId="formGroupEmail">
-  <Form.Label>Email address</Form.Label>
+  <Form.Label>Ingrese su correo</Form.Label>
   <Form.Control type="email" placeholder="Enter email" />
 </Form.Group>
 <Form.Group controlId="formGroupPassword">
-  <Form.Label>Password</Form.Label>
+  <Form.Label>Crea una contraseña</Form.Label>
   <Form.Control type="password" placeholder="Password" />
 </Form.Group>
 
