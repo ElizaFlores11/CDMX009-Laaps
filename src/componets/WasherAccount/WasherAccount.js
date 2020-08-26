@@ -12,7 +12,7 @@ const  WasherAccount = () =>{
             <div>
                 <i className="fas fa-user fa-5x foto"></i>
             </div>
-            <div className="titulo2">Francisco Perez Flores</div>
+            <div className="titulo2">Francisco Perez Flores</div>  
             <div className='washer-container'>
             <div className='icon'>
             <i className="fas fa-envelope blue" ></i>
