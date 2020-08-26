@@ -45,7 +45,7 @@ const AddAccount= () =>{
                 </Form.Group>
                 <div className='button-container'>
                     <Button variant="primary" type="submit" id='addAc-btn'>
-                        Submit
+                        REGISTRARSE
                     </Button>
                 </div>  
             </Form>

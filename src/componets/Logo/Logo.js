@@ -16,6 +16,10 @@ const Logo = ({small= false, big= false, medium=false }) =>{
     } else if (small){
         src = logo2nd
         alt = logo2nd
+        style = {
+            
+            height: '40%'
+        }
     } else if (medium){
         style = {
             width: '25%',
