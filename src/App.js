@@ -11,7 +11,7 @@ import './App.scss'
 function App() {
   return (
     <Fragment>
-      <Home />
+      <Routes />
 
     </Fragment>
   );

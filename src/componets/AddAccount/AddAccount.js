@@ -1,10 +1,18 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
+
 import './AddAccount.scss'
 import Logo from '../Logo/Logo'
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
 
 const AddAccount= () =>{
+    let history = useHistory()
+
+    function handleClick() {
+
+        history.push('/home')
+    }
     return(
         <div className='addAc-container'>
             <div className='addAc-logo-container'>
@@ -44,9 +52,11 @@ const AddAccount= () =>{
                     <Form.Control placeholder="Nombre del titular" size="sm"/>
                 </Form.Group>
                 <div className='button-container'>
-                    <Button variant="primary" type="submit" id='addAc-btn'>
+               
+                    <Button variant="primary" type="submit" id='addAc-btn' onClick={handleClick}>
                         REGISTRARSE
-                    </Button>
+                </Button>
+                    
                 </div>  
             </Form>
             </div>
