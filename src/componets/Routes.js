@@ -6,11 +6,15 @@ import Admin from './Admin/Admin';
 import WasherReport from './WasherReport/WasherReport'
 import WasherPerfil from './WasherPerfil/WasherPerfil'
 import WasherRegister from './WasherRegister/WasherRegister'
+import WasherAccount from './WasherAccount/WasherAccount'
 
 const Routes = () => {
 
     return (
         <Switch>
+        <Route exact path="/WasherAccount">
+            <WasherAccount />
+        </Route>
         <Route exact path="/WasherRegister">
             <WasherRegister />
         </Route>

@@ -15,7 +15,7 @@ const  WasherPerfil = () =>{
             <div className="titulo2">Francisco Perez Flores</div>
             <div className='washer-container'>
             <div className='icon'>
-            <i className="fas fa-user green" ></i>
+            <i className="fas fa-user blue" ></i>
             </div>
             <div className='card'>
                  <div className="text">
@@ -29,7 +29,7 @@ const  WasherPerfil = () =>{
 
             <div className='washer-container'>
             <div className='icon'>
-                <i className="fas fa-phone-alt green" ></i>
+                <i className="fas fa-phone-alt blue" ></i>
             </div>
             <div className='card'>
                  <div className="text">
@@ -42,7 +42,7 @@ const  WasherPerfil = () =>{
             
             <div className='washer-container'>
             <div className='icon'>
-                <i className="fas fa-map-marker-alt green" ></i>
+                <i className="fas fa-map-marker-alt blue" ></i>
             </div>
             <div className='card'>
                  <div className="text">
@@ -56,7 +56,7 @@ const  WasherPerfil = () =>{
             </div>
             <div className='washer-container'>
             <div className='icon'>
-                <i className="fas fa-address-card green" ></i>
+                <i className="fas fa-address-card blue" ></i>
             </div>
             <div className='card'>
                  <div className="text">
@@ -68,7 +68,7 @@ const  WasherPerfil = () =>{
             </div>
             <div className='washer-container'>
             <div className='icon'>
-                <i className="fas fa-envelope  green" ></i>
+                <i className="fas fa-envelope  blue" ></i>
             </div>
             <div className='card'>
                  <div className="text">
