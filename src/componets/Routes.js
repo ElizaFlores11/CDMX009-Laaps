@@ -4,10 +4,15 @@ import Index from './Index/Index';
 import Login from './Login/Login';
 import Admin from './Admin/Admin'; 
 import WasherReport from './WasherReport/WasherReport'
+import WasherPerfil from './WasherPerfil/WasherPerfil'
+
 const Routes = () => {
 
     return (
         <Switch>
+        <Route exact path="/WasherPerfil">
+            <WasherPerfil />
+        </Route>
         <Route exact path="/WasherReport">
             <WasherReport />
         </Route>

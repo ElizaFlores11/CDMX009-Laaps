@@ -21,11 +21,11 @@ const  ReportDay= () =>{
                     </div>
             </div>
             <div className='calf'>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
             </div>
             </div>
             <br/>
@@ -44,11 +44,11 @@ const  ReportDay= () =>{
                     </div>
             </div>
             <div className='calf'>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
+            <i className="fas fa-star green"></i>
             </div>
             </div>
             <Button className="btn"type="button" id='goPerfil' style={{backgroundColor: '#4FB690', borderColor:'#4FB690', borderRadius:'20px'}}>
