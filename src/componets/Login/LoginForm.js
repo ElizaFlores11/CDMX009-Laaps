@@ -65,7 +65,7 @@ const LoginForm = (props) =>{
                 <Col md={{ span: 6, offset: 3 }}>
                 <Form.Control 
                     type='text'
-                    placeholder='Correo Electrono'
+                    placeholder='Correo Eléctronico'
                     name='email'
                     onChange={(e) => setEmail(e.target.value)}
                 />
