@@ -18,7 +18,7 @@ const Logo = ({small= false, big= false, medium=false }) =>{
         alt = logo2nd
         style = {
             
-            height: '40%'
+            height: '90%'
         }
     } else if (medium){
         style = {

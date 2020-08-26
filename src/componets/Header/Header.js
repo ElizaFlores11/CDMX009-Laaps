@@ -10,7 +10,7 @@ const Header = () =>{
     return(
         <div className='header-container'>
             <div className='header-btnBack'>
-                <Button></Button>
+            <Button variant="outline-info" bsClass="custom-btn">&lt;</Button>
 
             </div>
             <div className='header-logo'>
